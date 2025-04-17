@@ -1,10 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Mi Página de Usuario</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <style>
+        /* Estilos generales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 15px;
+            width: 95%;
+            max-width: 1200px;
+            text-align: center;
+        }
+
+        .shortcut {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 15px;
+            transition: transform 0.3s, background 0.3s;
+            font-size: 14px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+        }
+
+        .shortcut:hover {
+            transform: scale(1.1);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .shortcut a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            font-size: 12px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+        }
+    </style>
 </head>
 <body>
-  <h1>¡Hola Mundo desde mi GitHub Page!</h1>
-  <p>Esta es mi página personal alojada en GitHub.</p>
+    <div class="container">
+        <!-- Accesos directos -->
+        <div class="shortcut"><a href="https://www.youtube.com" target="_blank">YouTube</a></div>
+        <div class="shortcut"><a href="https://github.com/sanifuri" target="_blank">/sanifuri</a></div>
+        <div class="shortcut"><a href="https://github.com/sadeknifuri" target="_blank">/sadeknifuri</a></div>
+        <div class="shortcut"><a href="https://www.netflix.com" target="_blank">Netflix</a></div>
+        <div class="shortcut"><a href="https://www.amazon.com" target="_blank">Amazon</a></div>
+        <div class="shortcut"><a href="https://www.youtube.com" target="_blank">YouTube</a></div>
+        <div class="shortcut"><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></div>
+
+        <div class="shortcut"><a href="https://www.reddit.com" target="_blank">Reddit</a></div>
+        <div class="shortcut"><a href="https://www.twitter.com" target="_blank">Twitter</a></div>
+        <div class="shortcut"><a href="https://www.facebook.com" target="_blank">Facebook</a></div>
+        <div class="shortcut"><a href="https://www.instagram.com" target="_blank">Instagram</a></div>
+        <div class="shortcut"><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></div>
+        <div class="shortcut"><a href="https://www.twitch.tv" target="_blank">Twitch</a></div>
+        <div class="shortcut"><a href="https://www.spotify.com" target="_blank">Spotify</a></div>
+
+        <div class="shortcut"><a href="https://www.pinterest.com" target="_blank">Pinterest</a></div>
+        <div class="shortcut"><a href="https://www.microsoft.com" target="_blank">Microsoft</a></div>
+        <div class="shortcut"><a href="https://www.adobe.com" target="_blank">Adobe</a></div>
+        <div class="shortcut"><a href="https://www.apple.com/music" target="_blank">Apple Music</a></div>
+        <div class="shortcut"><a href="https://www.tesla.com" target="_blank">Tesla</a></div>
+        <div class="shortcut"><a href="https://www.paypal.com" target="_blank">PayPal</a></div>
+        <div class="shortcut"><a href="https://www.ebay.com" target="_blank">eBay</a></div>
+
+        <div class="shortcut"><a href="https://www.dropbox.com" target="_blank">Dropbox</a></div>
+        <div class="shortcut"><a href="https://www.slack.com" target="_blank">Slack</a></div>
+        <div class="shortcut"><a href="https://www.airbnb.com" target="_blank">Airbnb</a></div>
+        <div class="shortcut"><a href="https://www.nike.com" target="_blank">Nike</a></div>
+        <div class="shortcut"><a href="https://www.cnn.com" target="_blank">CNN</a></div>
+        <div class="shortcut"><a href="https://www.bbc.com" target="_blank">BBC</a></div>
+        <div class="shortcut"><a href="https://www.medium.com" target="_blank">Medium</a></div>
+
+        <div class="shortcut"><a href="https://www.quora.com" target="_blank">Quora</a></div>
+        <div class="shortcut"><a href="https://www.stackoverflow.com" target="_blank">Stack Overflow</a></div>
+        <div class="shortcut"><a href="https://www.udemy.com" target="_blank">Udemy</a></div>
+        <div class="shortcut"><a href="https://www.coursera.org" target="_blank">Coursera</a></div>
+        <div class="shortcut"><a href="https://www.edx.org" target="_blank">edX</a></div>
+        <div class="shortcut"><a href="https://www.github.io" target="_blank">GitHub Pages</a></div>
+        <div class="shortcut"><a href="https://www.trello.com" target="_blank">Trello</a></div>
+    </div>
+    <footer>
+        Página de inicio personalizada - Diseñada por ti.
+    </footer>
 </body>
 </html>
